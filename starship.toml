@@ -1,0 +1,20 @@
+[git_branch]
+
+[nodejs]
+symbol = "🦉 "
+style = "yellow"
+
+[git_status]
+
+[java]
+symbol = "🦀 "
+style = "red"
+
+[package]
+symbol = "🎁 "
+
+[python]
+symbol = "🐢 "
+style = "green"
+
+
