@@ -307,7 +307,7 @@
     "Green Component" : 0.8664093017578125
   },
   "Use Custom Window Title" : false,
-  "Window Type" : 12,
+  "Window Type" : 0,
   "Smart Cursor Color" : false,
   "BM Growl" : true,
   "Prompt Before Closing 2" : 1,
@@ -461,8 +461,8 @@
   "Send New Output Alert" : false,
   "Semantic History" : {
     "editor" : "com.sublimetext.3",
-    "action" : "best editor",
-    "text" : ""
+    "text" : "",
+    "action" : "best editor"
   },
   "Use HFS Plus Mapping" : false,
   "Shortcut" : "A",
@@ -503,6 +503,7 @@
             "path" : "path",
             "maxwidth" : 1.7976931348623157e+308,
             "base: priority" : 5,
+            "base: compression resistance" : 1,
             "shared text color" : {
               "Red Component" : 1,
               "Color Space" : "sRGB",
@@ -510,8 +511,7 @@
               "Alpha Component" : 1,
               "Green Component" : 1
             },
-            "minwidth" : 0,
-            "base: compression resistance" : 1
+            "minwidth" : 0
           },
           "layout advanced configuration dictionary value" : {
             "background color" : {
