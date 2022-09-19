@@ -1,35 +1,28 @@
 {
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.tabSize": 2,
-    "editor.rulers": [
-        80
-    ],
+    "editor.rulers": [80],
     "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "window.zoomLevel": 0,
     "editor.suggestSelection": "first",
     "editor.codeLens": true,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/Users/jeffreychou/anaconda3/bin/python",
     "editor.fontFamily": "Liga Menlo",
     "editor.fontLigatures": true,
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
-    "go.formatTool": "gofmt",
-    "solidity.enabledAsYouTypeCompilationErrorCheck": true,
-    "solidity.linter": "solium",
-    "solidity.packageDefaultDependenciesContractsDirectory": "",
-    "solidity.packageDefaultDependenciesDirectory": "",
-    "solidity.validationDelay": 1500,
     "zenMode.fullScreen": false,
     "explorer.openEditors.visible": 0,
-    "workbench.activityBar.visible": false,
-    // "zenMode.centerLayout": false
     "files.associations": {
         "*.js": "javascriptreact"
     },
-    "latex-workshop.view.pdf.viewer": "tab"
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
 }
