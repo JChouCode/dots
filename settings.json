@@ -1,22 +1,23 @@
 {
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.rulers": [80],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
-    "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "window.zoomLevel": 0,
     "editor.suggestSelection": "first",
     "editor.codeLens": true,
     "python.linting.pylintEnabled": true,
-    "editor.fontFamily": "Liga Menlo",
+    "editor.fontFamily": "LigaMenlo Nerd Font",
+    "terminal.integrated.fontFamily": "LigaMenlo Nerd Font",
     "editor.fontLigatures": true,
     "zenMode.fullScreen": false,
     "explorer.openEditors.visible": 0,
     "files.associations": {
-        "*.js": "javascriptreact"
+        "*.js": "javascriptreact",
+        "*.css": "tailwindcss"
     },
     "kotlin.languageServer.enabled": false,
     "kotlin.debugAdapter.enabled": false,
@@ -24,5 +25,14 @@
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "prettier.tabWidth": 4,
+    "files.autoSave": "onWindowChange",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "reactSnippets.settings.importReactOnTop": false
 }
